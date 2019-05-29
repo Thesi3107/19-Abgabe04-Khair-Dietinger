@@ -1,5 +1,5 @@
 # 19-Abgabe04-Khair-Dietinger
-- [ ] edit README
+- [x] edit README
 
 ## TO-DO
 
@@ -42,3 +42,4 @@
     - [ ] PDF erstellen (zB Dillinger)
 - [ ] Überprüfung Vollständigkeit der Abgabe
 - [ ] Abgabe PDF Version der Abgabe
+- [ ] Sich freuen :)
