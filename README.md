@@ -81,10 +81,19 @@ JUnit Annotations:
 
 - [x] Sie werden die „selben“ Testfälle mehrfach erstellen müssen um „mehrere Variationen“ für einen möglichst vollständigen Test zu erreichen. Achten Sie dabei mit unterschiedlichen Daten zu testen.
     - [x] JavaDoc Kommentare erstellen.
-    - [x] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report.
     
-    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit1.PNG "junit2")
-    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit2.PNG "junit1")
+@author (nur bei Klassen und Interfaces)
+@version (nur bei Klassen und Interfaces)
+@param (nur bei Methoden und Constructor)
+@return (nur bei Methoden, gibt den retournierten Wert an)
+@exception (@throws)
+@see (Verweise zu anderen Dateien)
+@since
+
+   - [x] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report.
+    
+   ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit1.PNG "junit2")
+   ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit2.PNG "junit1")
     
 ----------------------------------------------------------------------------------------------------------------------------------------
 
