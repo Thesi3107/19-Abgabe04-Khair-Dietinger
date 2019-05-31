@@ -40,7 +40,7 @@
 - [x] Passen Sie Ihr pom.xml auf das Projekt an, damit Sie das Projekt erstellen aber auch Dokumentation generieren können.
     - [x] EntwicklerInnen Informationen hinzufügen.
     - [x] Integration Logging Bibliothek log4j mittels Maven Dependencies.
-- [ ] Log4j (Version 2) integrieren und in jeder Methode ins Log schreiben
+- [x] Log4j (Version 2) integrieren und in jeder Methode ins Log schreiben
     - [x] Siehe aktualisiertes Stack Beispiel.
     - [x] Erstellen Sie einen Statischen Logger der auf die Konsole schreibt.
     - [x] Konfigurieren Sie Logger über ein properties File.
@@ -49,11 +49,11 @@
     - [x] Ergebnisse (Konsolenausgabe) als Bild in Dokumentation einfließen lassen.
     
     ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/log4j.PNG "log4j")
-- [ ] Maven Site Dokumentation erstellen
+- [x] Maven Site Dokumentation erstellen
     - [x] Inklusive Javadoc Code und Javadoc Test Klassen
     - [x] Inklusive Menü mit Verweis auf manuell erstellte Seite
         - [x] Seite erläutert Funktionsweise Queue
-    - [ ] Geben Sie ein Bild der Maven Site Dokumentation in den Lab Report
+    - [x] Geben Sie ein Bild der Maven Site Dokumentation in den Lab Report
     
     ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/queue.html.png "Seite von Queue")
         - [ ] Der Inhalt der manuell erstellten Seite sollte ersichtlich sein 
