@@ -33,7 +33,7 @@
     - [ ] Inklusive Menü mit Verweis auf manuell erstellte Seite
         - [ ] Seite erläutert Funktionsweise Queue
     - [ ] Geben Sie ein Bild der Maven Site Dokumentation in den Lab Report
-        - [ ] Der Inhalt der manuell erstellten Seite sollte ersichtlich sein Konfigurationsmanagement Vertiefende Gesamtwiederholung Arbeitsaufträge.docx Seite 5 von 6 Institut Internettechnologien und -Anwendungen
+        - [ ] Der Inhalt der manuell erstellten Seite sollte ersichtlich sein 
 - [ ] Erstellung detaillierter und nachvollziehbarer Markdown Lab Report
     - [ ] Übertragung Information aus Labreport Template.
     - [ ] Alle Schritte dieser Übung nachvollziehbar erläutern.
