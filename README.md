@@ -43,3 +43,22 @@
 - [ ] Überprüfung Vollständigkeit der Abgabe
 - [ ] Abgabe PDF Version der Abgabe
 - [ ] Sich freuen :)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Python Code:
+
+````python
+def hello_world():
+    if True:
+        print("hello world")
+````
+Java Code:
+````java
+public void hello_world() {
+    if (true) {
+        System.out.println("hello world");
+    }
+}
+````
