@@ -79,7 +79,7 @@ public class StringQueueTest {
      */
     @Test
     public void testPoll2() {
-    	//returns null because q1 is empty
+    	//returns  not null because q1 isn't empty
     	q1.offer("a");
     	Assert.assertNotNull(q1.poll());
     }
