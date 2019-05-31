@@ -40,9 +40,9 @@ Sieben Schritte, um Fehler aufzudecken (TRAFFIC):
     
     - [x] Ergänzen Sie das Beispiel nach eigenen Ermessen um es testen zu können.
     
-----------------------------------------------------------------------------------------------------------------------------------------
-    
     Die StringQueueTest wurde mit Methoden zum Testen befüllt (Code Coverage 100%)
+    
+----------------------------------------------------------------------------------------------------------------------------------------
     
 - [x] Erstellen Sie für Klasse und alle Methoden Kommentare um mittels Javadoc eine API Dokumentation zu erzeugen
 Motivation für die Dokumentation:
