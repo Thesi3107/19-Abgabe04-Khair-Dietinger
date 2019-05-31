@@ -8,7 +8,7 @@
 - [ ] Taskergebnisse Schritt für Schritt auf Git stellen
     - [ ] Führrung Taskliste
     - [ ] Veröffentlichung in Git mit aktuell durchgeführten Tätigkeiten, z.B. Testfälle geschrieben so wird auch in der Taskliste diese Aufgabe als erledigt markiert und Testfälle inkl. geänderter Taskliste ins Repository übertragen.
-- [ ] Korrigieren Sie den Code bzw. Debuggen Sie ihn um die Fehler zu finden
+- [x] Korrigieren Sie den Code bzw. Debuggen Sie ihn um die Fehler zu finden
     - [x] Es befinden sich gesamt 3 Fehler im Source Code.
     - [x] Bei Bedarf Optimieren Sie das Queue Beispiel.
     - [x] Ergänzen Sie das Beispiel nach eigenen Ermessen um es testen zu können.
@@ -16,7 +16,7 @@
     - [ ] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report. 
 - [x] Erstellung JUnit Tests (vollständig testen, mehrere Varianten)
     - [x] Sie werden die „selben“ Testfälle mehrfach erstellen müssen um „mehrere Variationen“ für einen möglichst vollständigen Test zu erreichen. Achten Sie dabei mit unterschiedlichen Daten zu testen.
-    - [ ] JavaDoc Kommentare erstellen.
+    - [x] JavaDoc Kommentare erstellen.
     - [ ] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report.
 - [x] Passen Sie Ihr pom.xml auf das Projekt an, damit Sie das Projekt erstellen aber auch Dokumentation generieren können.
     - [x] EntwicklerInnen Informationen hinzufügen.
