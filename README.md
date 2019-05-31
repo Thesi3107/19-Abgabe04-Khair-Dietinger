@@ -16,7 +16,7 @@
     **line 43-46:** String element wird gesetzt. poll wird element zugewiesen, anschließend wird element wieder auf null gesetzt. Daher       macht die anschließende Abfrage ob element gleich null ist, keinen Sinn, da das Element immer null ist.
     
     - [x] Bei Bedarf Optimieren Sie das Queue Beispiel.
-    Eine Main-Klasse wurde erstellt ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/media/bug1.PNG "bug1")
+    Eine Main-Klasse wurde erstellt ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug1.PNG "bug1")
     - [x] Ergänzen Sie das Beispiel nach eigenen Ermessen um es testen zu können.
 - [ ] Erstellen Sie für Klasse und alle Methoden Kommentare um mittels Javadoc eine API Dokumentation zu erzeugen
     - [ ] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report. 
