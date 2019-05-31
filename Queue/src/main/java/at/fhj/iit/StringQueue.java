@@ -14,6 +14,10 @@ public class StringQueue implements Queue {
 	private int maxSize = 5;
 
 
+	public StringQueue(){
+
+	}
+
 	public StringQueue(int maxSize){
 		this.maxSize = maxSize;
 	}
