@@ -20,8 +20,13 @@
     
     
     - [x] Bei Bedarf Optimieren Sie das Queue Beispiel.
-    Eine Main-Klasse wurde erstellt 
+    
+    Eine Main-Klasse wurde erstellt, welche einige Funktionen aufruft.
+    
     - [x] Ergänzen Sie das Beispiel nach eigenen Ermessen um es testen zu können.
+    
+    Die StringQueueTest wurde mit Methoden zum Testen befüllt (Code Coverage 100%)
+    
 - [ ] Erstellen Sie für Klasse und alle Methoden Kommentare um mittels Javadoc eine API Dokumentation zu erzeugen
     - [ ] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report. 
 - [x] Erstellung JUnit Tests (vollständig testen, mehrere Varianten)
