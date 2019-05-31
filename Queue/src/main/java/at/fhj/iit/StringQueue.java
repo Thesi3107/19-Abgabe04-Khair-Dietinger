@@ -1,5 +1,7 @@
 package at.fhj.iit;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -9,50 +11,63 @@ import java.util.NoSuchElementException;
 // write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
 
 /**
- * StringQueue class contains an default constructor which sets the size of the queue on 5
- * There is also an constructor which can set the size on which you want to
- * StringQueue also implements Queue
+ * StringQueue class contains an default constructor which sets the size of the
+ * queue on 5 There is also an constructor which can set the size on which you
+ * want to StringQueue also implements Queue
+ * 
  * @author Theresa Dietinger, Patrick Khair
  * @since 31.05.2019
+ * @version 1.0
+ * @see Queue
  */
 
 public class StringQueue implements Queue {
 
+	private static final Logger logger = LogManager.getLogger(StringQueue.class);
 
 	private List<String> elements = new ArrayList<String>();
 	private int maxSize = 5;
 
-	public StringQueue (){ }
+	public StringQueue() {
+		logger.info("Default Constructor with size: " + maxSize);
+	}
 
-	public StringQueue(int maxSize){
+	public StringQueue(int maxSize) {
+		logger.info("Constructor called with size: " + maxSize);
 		this.maxSize = maxSize;
 	}
 
 	/**
 	 * Adds the element obj to the queue.
+	 * 
 	 * @param obj you want to add
 	 * @return true if succeeded else false
 	 */
 	@Override
 	public boolean offer(String obj) {
-		if(elements.size()!= maxSize)
+		if (elements.size() != maxSize) {
+			logger.info("Adds " + obj + " to the queue");
 			elements.add(obj);
-		else
+		} else {
+			logger.info("Can't add " + obj + " because queue is vull");
 			return false;
-
+		}
 		return true;
+
 	}
 
 	/**
-	 * Returns the head (first) element and also deletes it. That is, we cannot get it again.
-	 * If no element exists (when queue is empty), the method returns null.
+	 * Returns the head (first) element and also deletes it. That is, we cannot get
+	 * it again. If no element exists (when queue is empty), the method returns
+	 * null.
+	 * 
 	 * @return if an element exists the head-element else null
 	 */
 	@Override
 	public String poll() {
 		String element = peek();
 
-		if(elements.size() != 0){
+		if (elements.size() != 0) {
 			elements.remove(0);
 		}
 
@@ -60,27 +75,31 @@ public class StringQueue implements Queue {
 	}
 
 	/**
-	 * It also returns and deletes the head element like poll(), but with a small difference.
+	 * It also returns and deletes the head element like poll(), but with a small
+	 * difference.
+	 * 
 	 * @return head-element if exists
 	 * @exception NoSuchElementException if queue is empty
 	 */
 	@Override
 	public String remove() {
 		String element = poll();
-		if(element == null)
+		if (element == null)
 			throw new NoSuchElementException("there's no element any more");
 
 		return element;
 	}
 
 	/**
-	 * Returns the head element but it does not delete it. That is, we can get it again.
+	 * Returns the head element but it does not delete it. That is, we can get it
+	 * again.
+	 * 
 	 * @return return head-element if exists else null
 	 */
 	@Override
 	public String peek() {
 		String element;
-		if(elements.size() > 0)
+		if (elements.size() > 0)
 			element = elements.get(0);
 		else
 			element = null;
@@ -89,17 +108,19 @@ public class StringQueue implements Queue {
 	}
 
 	/**
-	 * It works similar to peek() but with a small difference (returns but does not delete the element).
-	 * It throws NoSuchElementException when the queue is empty.
+	 * It works similar to peek() but with a small difference (returns but does not
+	 * delete the element). It throws NoSuchElementException when the queue is
+	 * empty.
+	 * 
 	 * @return head element if net empty
 	 * @exception NoSuchElementException if the queue is empty
 	 */
 	@Override
 	public String element() {
 		String element = peek();
-		if(element == null)
+		if (element == null)
 			throw new NoSuchElementException("there's no element any more");
-		
+
 		return element;
 	}
 
