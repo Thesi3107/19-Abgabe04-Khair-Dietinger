@@ -1,19 +1,25 @@
 package at.fhj.iit;
 
 
-import junit.framework.TestCase.*;
-
 import java.util.NoSuchElementException;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 
+/**
+ * Testcases for StringQueue which implements Queue
+ * 
+ * @author Patrick Khair, Theresa Dietinger
+ *
+ */
 public class StringQueueTest {
     private StringQueue q1;
     private StringQueue q2;
     private int maxsize = 2;
+    private final Logger l = LogManager.getLogger(StringQueue.class);
 
     /**
      * creates one queue with relative size and another one with maxsize as 2
