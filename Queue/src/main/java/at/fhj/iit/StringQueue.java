@@ -18,7 +18,6 @@ import java.util.NoSuchElementException;
  * @author Theresa Dietinger, Patrick Khair
  * @since 31.05.2019
  * @version 1.0
- * @see Queue
  */
 
 public class StringQueue implements Queue {
@@ -67,6 +66,7 @@ public class StringQueue implements Queue {
 	public String poll() {
 		String element = peek();
 
+		logger.info("Return und delete: " + element);
 		if (elements.size() != 0) {
 			elements.remove(0);
 		}
@@ -84,9 +84,11 @@ public class StringQueue implements Queue {
 	@Override
 	public String remove() {
 		String element = poll();
-		if (element == null)
+		if (element == null) {
+			logger.error("throw NoSuchElementException");
 			throw new NoSuchElementException("there's no element any more");
-
+		}
+		logger.info("Return and delete: " + element);
 		return element;
 	}
 
@@ -99,11 +101,13 @@ public class StringQueue implements Queue {
 	@Override
 	public String peek() {
 		String element;
-		if (elements.size() > 0)
+		if (elements.size() > 0) {
 			element = elements.get(0);
-		else
+			logger.info("Returns: " + element);
+		} else {
 			element = null;
-
+			logger.info("Returns: " + element);
+		}
 		return element;
 	}
 
@@ -118,9 +122,11 @@ public class StringQueue implements Queue {
 	@Override
 	public String element() {
 		String element = peek();
-		if (element == null)
+		if (element == null) {
+			logger.error("throw NoSuchElementException");
 			throw new NoSuchElementException("there's no element any more");
-
+		}
+		logger.info("Returns: " + element);
 		return element;
 	}
 
