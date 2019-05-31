@@ -83,11 +83,17 @@ JUnit Annotations:
     - [x] JavaDoc Kommentare erstellen.
     
 @author (nur bei Klassen und Interfaces)
+
 @version (nur bei Klassen und Interfaces)
+
 @param (nur bei Methoden und Constructor)
+
 @return (nur bei Methoden, gibt den retournierten Wert an)
+
 @exception (@throws)
+
 @see (Verweise zu anderen Dateien)
+
 @since
 
    - [x] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report.
