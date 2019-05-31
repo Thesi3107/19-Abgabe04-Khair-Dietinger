@@ -37,6 +37,8 @@
     - [x] Sie werden die „selben“ Testfälle mehrfach erstellen müssen um „mehrere Variationen“ für einen möglichst vollständigen Test zu erreichen. Achten Sie dabei mit unterschiedlichen Daten zu testen.
     - [x] JavaDoc Kommentare erstellen.
     - [ ] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report.
+    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit1.PNG "junit2")
+    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit2.PNG "junit1")
 - [x] Passen Sie Ihr pom.xml auf das Projekt an, damit Sie das Projekt erstellen aber auch Dokumentation generieren können.
     - [x] EntwicklerInnen Informationen hinzufügen.
     - [x] Integration Logging Bibliothek log4j mittels Maven Dependencies.
