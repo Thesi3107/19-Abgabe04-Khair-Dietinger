@@ -12,7 +12,8 @@
     - [x] Es befinden sich gesamt 3 Fehler im Source Code.
     
     **Fehler 1:** einmal wird maxsize und einmal maxSize verwendet. Weiters wurde das "this" bei this.maxSize = maxSize vergessen.
-      Außerdem wird maxsize bereits davor gesetzt, was bedeutet, dass es auch einen default constructor geben sollte, welcher keine           maxsize mitübergibt. ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug1.PNG "bug1")
+      Außerdem wird maxsize bereits davor gesetzt, was bedeutet, dass es auch einen default constructor geben sollte, welcher keine           maxsize mitübergibt. 
+      ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug1.PNG "bug1")
       
     **line 34:** element könnte nur entfernt werden, wenn size gleich null ist, was keinen Sinn macht.![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug2.PNG "bug2")
     
@@ -45,7 +46,9 @@
     - [x] Konfigurieren Sie Logger über ein properties File.
     - [x] Geben Sie eine Info Lognachricht bei Aufruf einer jeden Methode aus.
     - [x] Geben Sie eine Error Lognachricht aus bevor Sie einen Fehler werfen.
-    - [ ] Ergebnisse (Konsolenausgabe) als Bild in Dokumentation einfließen lassen.
+    - [x] Ergebnisse (Konsolenausgabe) als Bild in Dokumentation einfließen lassen.
+    
+    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/log4j.PNG "log4j")
 - [ ] Maven Site Dokumentation erstellen
     - [x] Inklusive Javadoc Code und Javadoc Test Klassen
     - [x] Inklusive Menü mit Verweis auf manuell erstellte Seite
