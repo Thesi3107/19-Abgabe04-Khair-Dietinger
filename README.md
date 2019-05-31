@@ -49,7 +49,7 @@
         - [x] Seite erläutert Funktionsweise Queue
     - [ ] Geben Sie ein Bild der Maven Site Dokumentation in den Lab Report
     
-    ![alt text] (https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/queue.html.png "Seite von Queue")
+    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/queue.html.png "Seite von Queue")
         - [ ] Der Inhalt der manuell erstellten Seite sollte ersichtlich sein 
 - [ ] Erstellung detaillierter und nachvollziehbarer Markdown Lab Report
     - [ ] Übertragung Information aus Labreport Template.
