@@ -40,6 +40,7 @@ Sieben Schritte, um Fehler aufzudecken (TRAFFIC):
 - [x] Erstellen Sie für Klasse und alle Methoden Kommentare um mittels Javadoc eine API Dokumentation zu erzeugen
 
 Motivation für die Dokumentation:
+
 •	Kommentare dienen als Gedankenstütze, gut platzierte Kommentare können viel Zeit sparen
 
 •	Kommentare, welche nicht mehr aktuell sind, können sehr viel Schaden anrichten und Zeit verschwenden
@@ -57,6 +58,7 @@ Motivation für die Dokumentation:
 - [x] Erstellung JUnit Tests (vollständig testen, mehrere Varianten)
 
 JUnit Annotations:
+
 •	@Test: Markiert Test-Methode
 
 •	@Ignore: Tests können ignoriert werden, wenn diese z.B. in Laufzeit nicht ausgeführt werden
