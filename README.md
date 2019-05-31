@@ -12,8 +12,11 @@
     - [x] Es befinden sich gesamt 3 Fehler im Source Code.
     **Fehler 1:** einmal wird maxsize und einmal maxSize verwendet. Weiters wurde das "this" bei this.maxSize = maxSize vergessen.
       Außerdem wird maxsize bereits davor gesetzt, was bedeutet, dass es auch einen default constructor geben sollte, welcher keine           maxsize mitübergibt. ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug1.PNG "bug1")
+      
     **line 34:** element könnte nur entfernt werden, wenn size gleich null ist, was keinen Sinn macht.![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug2.PNG "bug2")
-    **line 43-46:** String element wird gesetzt. poll wird element zugewiesen, anschließend wird element wieder auf null gesetzt. Daher       macht die anschließende Abfrage ob element gleich null ist, keinen Sinn, da das Element immer null ist.
+    
+    **line 43-46:** String element wird gesetzt. poll wird element zugewiesen, anschließend wird element wieder auf null gesetzt. Daher       macht die anschließende Abfrage ob element gleich null ist, keinen Sinn, da das Element immer null ist. ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug3.PNG "bug3")
+    
     
     - [x] Bei Bedarf Optimieren Sie das Queue Beispiel.
     Eine Main-Klasse wurde erstellt 
