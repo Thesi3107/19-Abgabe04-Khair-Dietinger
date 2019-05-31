@@ -41,9 +41,13 @@ Sieben Schritte, um Fehler aufzudecken (TRAFFIC):
 
 Motivation für die Dokumentation:
 •	Kommentare dienen als Gedankenstütze, gut platzierte Kommentare können viel Zeit sparen
+
 •	Kommentare, welche nicht mehr aktuell sind, können sehr viel Schaden anrichten und Zeit verschwenden
+
 •	Trotz Kommentaren sollte Source Code verständlich formuliert und Variablennamen sprechend sein
+
 •	Wenn dies jedoch nicht ausreicht, werden Fragen wie ‚warum wurde das so programmiert?‘ durch Kommentare beantwortet
+
 •	Jedoch sollten Kommentare nicht nur schlechten und fehlerhaften Code ersetzen.
 
    - [x] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report. 
@@ -54,10 +58,15 @@ Motivation für die Dokumentation:
 
 JUnit Annotations:
 •	@Test: Markiert Test-Methode
+
 •	@Ignore: Tests können ignoriert werden, wenn diese z.B. in Laufzeit nicht ausgeführt werden
+
 •	@Before, @After: vor und nach jedem Test
+
 •	@BeforeClass, @AfterClass: Vor Aufrufen der Klasse und nach Beendigung der Klasse
+
 •	@Test (expected = Exception.class): z.B. FileNotFound-Exception wird geworfen. Test gibt true zurück
+
 •	@Test (timeut = 1000): Test darf z.B. nur eine Sekunde dauern
 
 - [x] Sie werden die „selben“ Testfälle mehrfach erstellen müssen um „mehrere Variationen“ für einen möglichst vollständigen Test zu erreichen. Achten Sie dabei mit unterschiedlichen Daten zu testen.
