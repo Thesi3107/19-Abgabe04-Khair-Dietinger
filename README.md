@@ -1,6 +1,8 @@
 # 19-Abgabe04-Khair-Dietinger
 - [x] edit README
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ## TO-DO
 
 - [x] Übertragen Angabe Taskliste in Markdown Readme 
@@ -8,6 +10,9 @@
 - [ ] Taskergebnisse Schritt für Schritt auf Git stellen 
    - [ ] Führrung Taskliste 
    - [ ] Veröffentlichung in Git mit aktuell durchgeführten Tätigkeiten, z.B. Testfälle geschrieben so wird auch in der Taskliste diese Aufgabe als erledigt markiert und Testfälle inkl. geänderter Taskliste ins Repository übertragen. 
+   
+----------------------------------------------------------------------------------------------------------------------------------------
+
 - [x] Korrigieren Sie den Code bzw. Debuggen Sie ihn um die Fehler zu finden 
 
 Durch Debugging-Prozess können Fehler leichter identifiziert werden. In der verwendeten IDE können die einzelne Schritte nachvollzogen werden. Sehr viele Schritte werden gleich oder ähnlich wiederholt.
@@ -35,10 +40,11 @@ Sieben Schritte, um Fehler aufzudecken (TRAFFIC):
     
     - [x] Ergänzen Sie das Beispiel nach eigenen Ermessen um es testen zu können.
     
+----------------------------------------------------------------------------------------------------------------------------------------
+    
     Die StringQueueTest wurde mit Methoden zum Testen befüllt (Code Coverage 100%)
     
 - [x] Erstellen Sie für Klasse und alle Methoden Kommentare um mittels Javadoc eine API Dokumentation zu erzeugen
-
 Motivation für die Dokumentation:
 
 •	Kommentare dienen als Gedankenstütze, gut platzierte Kommentare können viel Zeit sparen
@@ -54,7 +60,9 @@ Motivation für die Dokumentation:
    - [x] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report. 
     
  ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/javadoc.PNG "Seite der Java Documentation")
-    
+ 
+----------------------------------------------------------------------------------------------------------------------------------------
+ 
 - [x] Erstellung JUnit Tests (vollständig testen, mehrere Varianten)
 
 JUnit Annotations:
@@ -78,9 +86,14 @@ JUnit Annotations:
     ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit1.PNG "junit2")
     ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit2.PNG "junit1")
     
+----------------------------------------------------------------------------------------------------------------------------------------
+
 - [x] Passen Sie Ihr pom.xml auf das Projekt an, damit Sie das Projekt erstellen aber auch Dokumentation generieren können.
     - [x] EntwicklerInnen Informationen hinzufügen.
     - [x] Integration Logging Bibliothek log4j mittels Maven Dependencies.
+   
+----------------------------------------------------------------------------------------------------------------------------------------
+   
 - [x] Log4j (Version 2) integrieren und in jeder Methode ins Log schreiben
     - [x] Siehe aktualisiertes Stack Beispiel.
     - [x] Erstellen Sie einen Statischen Logger der auf die Konsole schreibt.
@@ -91,6 +104,8 @@ JUnit Annotations:
     
     ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/log4j.PNG "log4j")
     
+----------------------------------------------------------------------------------------------------------------------------------------
+
 - [x] Maven Site Dokumentation erstellen
     - [x] Inklusive Javadoc Code und Javadoc Test Klassen
     - [x] Inklusive Menü mit Verweis auf manuell erstellte Seite
@@ -100,7 +115,9 @@ JUnit Annotations:
     ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/queue.html.png "Seite von Queue")
     
     - [x] Der Inhalt der manuell erstellten Seite sollte ersichtlich sein 
-        
+      
+----------------------------------------------------------------------------------------------------------------------------------------
+
 - [ ] Erstellung detaillierter und nachvollziehbarer Markdown Lab Report
     - [x] Übertragung Information aus Labreport Template.
     - [ ] Alle Schritte dieser Übung nachvollziehbar erläutern.
@@ -124,6 +141,9 @@ public void hello_world() {
 
    - [ ] Korrekturlesen Dokumentation
    - [ ] PDF erstellen (zB Dillinger)
+   
+----------------------------------------------------------------------------------------------------------------------------------------
+   
 - [ ] Überprüfung Vollständigkeit der Abgabe
 - [ ] Abgabe PDF Version der Abgabe
 - [ ] Sich freuen :)
