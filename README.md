@@ -6,12 +6,15 @@
 ## TO-DO
 
 - [x] Übertragen Angabe Taskliste in Markdown Readme 
+Das ging grundsätzlich ganz einfach. Wir haben dazu aber Dillinger verwendet. Alles einfügen und durch Markdown formatieren nach belieben. Kästchen für die TO-DO Liste zum Beispiel haben wir durch  "- [ ]"" gemacht. 
 - [x] Einspielen Queue Vorlage aus Repository: https://github.com/michaelulm/softwareconfiguration-management/tree/master/test-automation/Queue
-- [ ] Taskergebnisse Schritt für Schritt auf Git stellen 
-   - [ ] Führrung Taskliste 
-   - [ ] Veröffentlichung in Git mit aktuell durchgeführten Tätigkeiten, z.B. Testfälle geschrieben so wird auch in der Taskliste diese Aufgabe als erledigt markiert und Testfälle inkl. geänderter Taskliste ins Repository übertragen. 
+- [x] Taskergebnisse Schritt für Schritt auf Git stellen 
+   - [x] Führrung Taskliste 
+  
+  War extrem praktisch, denn wir konnten die ganze Zeit einsehen, welche Punkte noch zu erledigen sind.
+   - [x] Veröffentlichung in Git mit aktuell durchgeführten Tätigkeiten, z.B. Testfälle geschrieben so wird auch in der Taskliste diese Aufgabe als erledigt markiert und Testfälle inkl. geänderter Taskliste ins Repository übertragen. 
    
-----------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------
 
 - [x] Korrigieren Sie den Code bzw. Debuggen Sie ihn um die Fehler zu finden 
 
@@ -36,13 +39,13 @@ Sieben Schritte, um Fehler aufzudecken (TRAFFIC):
     
     - [x] Bei Bedarf Optimieren Sie das Queue Beispiel.
     
-    Eine Main-Klasse wurde erstellt, welche einige Funktionen aufruft.
+    Eine Main-Klasse wurde erstellt, welche einige Funktionen aufrufen kann.
     
     - [x] Ergänzen Sie das Beispiel nach eigenen Ermessen um es testen zu können.
     
     Die StringQueueTest wurde mit Methoden zum Testen befüllt (Code Coverage 100%)
     
-----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
     
 - [x] Erstellen Sie für Klasse und alle Methoden Kommentare um mittels Javadoc eine API Dokumentation zu erzeugen
 Motivation für die Dokumentation:
@@ -101,20 +104,65 @@ JUnit Annotations:
    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit1.PNG "junit2")
    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit2.PNG "junit1")
     
-----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------
 
 - [x] Passen Sie Ihr pom.xml auf das Projekt an, damit Sie das Projekt erstellen aber auch Dokumentation generieren können.
     - [x] EntwicklerInnen Informationen hinzufügen.
+    ```xml
+     <developers>
+        <developer>
+            <id>theresadietinger</id>
+            <name>Theresa Dietinger</name>
+            <email>theresa.dietinger@edu.campus02.at</email>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+
+        <developer>
+            <id>patrickkhair</id>
+            <name>Patrick Khair</name>
+            <email>patrick.khair@edu.campus02.at</email>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+    </developers>
+    ```
     - [x] Integration Logging Bibliothek log4j mittels Maven Dependencies.
+    ```xml
+     <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.11.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.11.2</version>
+        </dependency>
+    ```
    
 ----------------------------------------------------------------------------------------------------------------------------------------
    
 - [x] Log4j (Version 2) integrieren und in jeder Methode ins Log schreiben
     - [x] Siehe aktualisiertes Stack Beispiel.
     - [x] Erstellen Sie einen Statischen Logger der auf die Konsole schreibt.
+    ```java
+    private static final Logger logger = LogManager.getLogger(StringQueue.class);
+    ```
     - [x] Konfigurieren Sie Logger über ein properties File.
+    
     - [x] Geben Sie eine Info Lognachricht bei Aufruf einer jeden Methode aus.
+    ```java
+    logger.info("Return und delete: " element);
+    ```
     - [x] Geben Sie eine Error Lognachricht aus bevor Sie einen Fehler werfen.
+    ```java
+    logger.error("throw NoSuchElementException");
+    ```
     - [x] Ergebnisse (Konsolenausgabe) als Bild in Dokumentation einfließen lassen.
     
     ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/log4j.PNG "log4j")
@@ -124,7 +172,12 @@ JUnit Annotations:
 - [x] Maven Site Dokumentation erstellen
     - [x] Inklusive Javadoc Code und Javadoc Test Klassen
     - [x] Inklusive Menü mit Verweis auf manuell erstellte Seite
-        - [x] Seite erläutert Funktionsweise Queue
+    ```xml
+     <menu name="19-Abgabe04-Khair-Dietinger">
+      <item name="Queue" href="queue.html"/>
+    </menu>
+    ```
+    - [x] Seite erläutert Funktionsweise Queue
     - [x] Geben Sie ein Bild der Maven Site Dokumentation in den Lab Report
     
     ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/queue.html.png "Seite von Queue")
@@ -133,9 +186,9 @@ JUnit Annotations:
       
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-- [ ] Erstellung detaillierter und nachvollziehbarer Markdown Lab Report
+- [x] Erstellung detaillierter und nachvollziehbarer Markdown Lab Report
     - [x] Übertragung Information aus Labreport Template.
-    - [ ] Alle Schritte dieser Übung nachvollziehbar erläutern.
+    - [x] Alle Schritte dieser Übung nachvollziehbar erläutern.
     - [x] Übung Github Flavor: Erstellen Sie einen Codeblock im Dokument, welcher 3 Zeilen Python und 3 Zeilen Java Source Code korrekt darstellt.
 
 Python Code:
@@ -154,14 +207,14 @@ public void hello_world() {
 }
 ````
 
-   - [ ] Korrekturlesen Dokumentation
-   - [ ] PDF erstellen (zB Dillinger)
+   - [x] Korrekturlesen Dokumentation
+   - [x] PDF erstellen (zB Dillinger)
    
 ----------------------------------------------------------------------------------------------------------------------------------------
    
-- [ ] Überprüfung Vollständigkeit der Abgabe
-- [ ] Abgabe PDF Version der Abgabe
-- [ ] Sich freuen :)
+- [x] Überprüfung Vollständigkeit der Abgabe
+- [x] Abgabe PDF Version der Abgabe
+- [x] Sich freuen :)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
