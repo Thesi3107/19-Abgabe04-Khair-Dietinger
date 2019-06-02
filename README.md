@@ -6,7 +6,7 @@
 ## TO-DO
 
 - [x] Übertragen Angabe Taskliste in Markdown Readme 
-Das ging grundsätzlich ganz einfach. Wir haben dazu aber Dillinger verwendet. Alles einfügen und durch Markdown formatieren nach belieben. Kästchen für die TO-DO Liste zum Beispiel haben wir durch  "- [ ]"" gemacht. 
+Das ging grundsätzlich ganz einfach. Wir haben dazu aber Dillinger verwendet. Alles einfügen und durch Markdown formatieren nach belieben. Kästchen für die TO-DO Liste zum Beispiel haben wir durch  "- [ ]" gemacht. 
 - [x] Einspielen Queue Vorlage aus Repository: https://github.com/michaelulm/softwareconfiguration-management/tree/master/test-automation/Queue
 - [x] Taskergebnisse Schritt für Schritt auf Git stellen 
    - [x] Führrung Taskliste 
