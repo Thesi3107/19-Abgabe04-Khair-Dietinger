@@ -35,11 +35,11 @@ Sieben Schritte, um Fehler aufzudecken (TRAFFIC):
     - [x] Es befinden sich gesamt 3 Fehler im Source Code.
     
     **Fehler 1:** einmal wird maxsize und einmal maxSize verwendet. Weiters wurde das "this" bei this.maxSize = maxSize vergessen.
-      Außerdem wird maxsize bereits davor gesetzt, was bedeutet, dass es auch einen default constructor geben sollte, welcher keine           maxsize mitübergibt. ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug1.PNG "bug1")
+      Außerdem wird maxsize bereits davor gesetzt, was bedeutet, dass es auch einen default constructor geben sollte, welcher keine           maxsize mitübergibt. ![alt text](./media/bug1.PNG "bug1")
       
-    **Fehler 2:** element könnte nur entfernt werden, wenn size gleich null ist, was keinen Sinn macht.![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug2.PNG "bug2")
+    **Fehler 2:** element könnte nur entfernt werden, wenn size gleich null ist, was keinen Sinn macht.![alt text](./media/bug2.PNG "bug2")
     
-    **Fehler 3:** String element wird gesetzt. poll wird element zugewiesen, anschließend wird element wieder auf null gesetzt. Daher       macht die anschließende Abfrage ob element gleich null ist, keinen Sinn, da das Element immer null ist. ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/bug3.PNG "bug3")
+    **Fehler 3:** String element wird gesetzt. poll wird element zugewiesen, anschließend wird element wieder auf null gesetzt. Daher       macht die anschließende Abfrage ob element gleich null ist, keinen Sinn, da das Element immer null ist. ![alt text](./media/bug3.PNG "bug3")
     
     - [x] Bei Bedarf Optimieren Sie das Queue Beispiel.
     
@@ -66,7 +66,7 @@ Motivation für die Dokumentation:
 
    - [x] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report. 
     
- ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/javadoc.PNG "Seite der Java Documentation")
+ ![alt text](./media/javadoc.PNG "Seite der Java Documentation")
  
 ----------------------------------------------------------------------------------------------------------------------------------------
  
@@ -105,8 +105,8 @@ JUnit Annotations:
 
    - [x] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report.
     
-   ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit1.PNG "junit2")
-   ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/junit2.PNG "junit1")
+   ![alt text](./media/junit1.PNG "junit2")
+   ![alt text](./media/junit2.PNG "junit1")
     
 ----------------------------------
 
@@ -169,7 +169,7 @@ JUnit Annotations:
     ```
     - [x] Ergebnisse (Konsolenausgabe) als Bild in Dokumentation einfließen lassen.
     
-    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/log4j.PNG "log4j")
+    ![alt text](./media/log4j.PNG "log4j")
     
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -184,7 +184,7 @@ JUnit Annotations:
     - [x] Seite erläutert Funktionsweise Queue
     - [x] Geben Sie ein Bild der Maven Site Dokumentation in den Lab Report
     
-    ![alt text](https://github.com/Thesi3107/19-Abgabe04-Khair-Dietinger/blob/master/media/queue.html.png "Seite von Queue")
+    ![alt text](./media/queue.html.png "Seite von Queue")
     
     - [x] Der Inhalt der manuell erstellten Seite sollte ersichtlich sein 
       
